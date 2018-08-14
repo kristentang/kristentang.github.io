@@ -1,0 +1,196 @@
+/* HTML and Body */
+
+html {
+  color: white;
+  font-family: "Karma", sans-serif;
+}
+
+body {
+  background-color: #637288;
+  margin: 0px;
+}
+
+/* Name Banner */
+
+#banner_out{
+    position: relative;
+    background-image: url("sun.JPG");
+    color: white;
+    text-align: center;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+
+
+}
+
+#banner_in{
+  border: 2px solid white;
+  text-align: center;
+  padding: 0px 10px;
+  margin: 130px;
+  position: relative;
+  margin-top: -278px;
+
+}
+
+
+#banner_in p1{
+  font-size: 175px;
+  font-family: 'Lovers Quarrel', cursive;
+}
+
+#banner_in p2{
+  font-size: 25px;
+}
+
+
+/* Navigation Bar */
+
+.topnav a {
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.topnav a:hover {
+    color: #9cc4bd;
+}
+
+.topnav a.active {
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* Hover */
+
+a:hover {
+  color: #9cc4bd;
+  border: #9cc4bd;
+}
+
+a {
+  color: #24334c;
+}
+
+.BlogTitles a:hover {
+  color: #9cc4bd;
+}
+
+.BlogTitles a {
+  color:#2b3c5a;
+}
+
+
+/* Headers, Paragraphs, Images */
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+}
+
+h3{
+  /*position: relative;
+  background-image: url("sunrise.JPG");
+  color: white;
+  text-align: center;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  */
+  padding-left: 60px;
+  font-size: 40px;
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  border: 2px solid white;
+}
+
+.pics{
+  display: flex;
+  text-align: center;
+}
+
+.pic3 {
+  padding: 15px;
+  text-align: center;
+  width:33%;
+}
+.pic {
+  padding: 15px;
+  text-align: center;
+  width:33%;
+}
+
+.Projects {
+  font-size: 35px;
+  text-align: center;
+  border: 2px solid white;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+}
+
+.BlogTitles {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  color:
+}
+
+.text_block {
+  /*background-color: #A2ADBC;*/
+  border-width: 2px;
+  border-color: white;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+/* Footer */
+
+footer {
+  position: relative;
+  background-image: url("sun_bottom.JPG");
+  color: white;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  padding: 90px;
+}
+
+.fa, #github {
+    font-size: 14px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    float: center;
+    margin: 10px;
+}
+
+.fa:hover, #github:hover {
+    color: #39517a;
+    border: 2px solid #39517a;
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin, #github {
+    color: white;
+    border: 2px solid white;
+}
