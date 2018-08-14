@@ -1,0 +1,194 @@
+/* HTML and Body */
+
+html {
+  color: white;
+  font-family: "Karma", sans-serif;
+}
+
+body {
+  background-color: #637288;
+  margin: 0px;
+}
+
+/* Name Banner */
+
+#banner_out{
+    position: relative;
+    background-image: url("sun.JPG");
+    color: white;
+    text-align: center;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+
+}
+
+#banner_in{
+  border: 2px solid white;
+  text-align: center;
+  padding: 0px 10px;
+  margin: 130px;
+  position: relative;
+  margin-top: -278px;
+
+}
+
+
+#banner_in p1{
+  font-size: 175px;
+  font-family: 'Lovers Quarrel', cursive;
+}
+
+#banner_in p2{
+  font-size: 25px;
+}
+
+
+/* Navigation Bar */
+
+.topnav a {
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.topnav a:hover {
+    color: #9cc4bd;
+}
+
+.topnav a.active {
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* Hover */
+
+a:hover {
+  color: #9cc4bd;
+  border: #9cc4bd;
+}
+
+a {
+  color: #2b3c5a;
+}
+
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h2 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.BlogText .pic{
+  font-size: 20px;
+  text-align: center;
+}
+
+.BlogText p .pic p{
+  font-size: 12px;
+  color: white;
+  padding-bottom: 0px;
+}
+
+.BlogText > p{
+  font-size: 20px;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 0px;
+}
+
+img {
+  border: 2px solid white;
+  margin-bottom: 0px;
+}
+
+
+.pic2 {
+  flex: 50%;
+  padding: 5px;
+  text-align: center;
+}
+
+.vid {
+  margin: 20px;
+  flex: 50%;
+  text-align: center;
+}
+
+.vid > video {
+  border: 2px solid white;
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+.pics{
+  display: flex;
+  text-align: center;
+}
+
+.pic3 {
+  padding: 15px;
+  text-align: center;
+  width:33%;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  background-image: url("sun_bottom.JPG");
+  color: white;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  padding: 60px;
+}
+
+.fa, #github {
+    font-size: 14px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    float: center;
+    margin: 10px;
+}
+
+.fa:hover, #github:hover {
+    color: #2b3c5a;
+    border: 2px solid #2b3c5a;
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin, #github {
+    color: white;
+    border: 2px solid white;
+}
+
+.pic>p {
+  font-size: 15px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.pic2>p {
+  font-size: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
