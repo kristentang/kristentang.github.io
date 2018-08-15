@@ -7,7 +7,7 @@ html {
 
 body {
   background-color: #637288;
-  margin: 0px;
+  margin: 20px;
 }
 
 /* Name Banner */
@@ -96,14 +96,6 @@ h1 {
 }
 
 h3{
-  /*position: relative;
-  background-image: url("sunrise.jpg");
-  color: white;
-  text-align: center;
-  background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed;
-  */
   padding-left: 60px;
   font-size: 40px;
   margin: 0px;
