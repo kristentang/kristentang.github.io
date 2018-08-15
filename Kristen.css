@@ -14,7 +14,7 @@ body {
 
 #banner_out{
     position: relative;
-    background-image: url("sun.JPG");
+    background-image: url("sun.jpg");
     color: white;
     text-align: center;
     background-position: bottom;
@@ -97,7 +97,7 @@ h1 {
 
 h3{
   /*position: relative;
-  background-image: url("sunrise.JPG");
+  background-image: url("sunrise.jpg");
   color: white;
   text-align: center;
   background-position: bottom;
@@ -166,7 +166,7 @@ img {
 
 footer {
   position: relative;
-  background-image: url("sun_bottom.JPG");
+  background-image: url("sun_bottom.jpg");
   color: white;
   text-align: center;
   background-position: center;
