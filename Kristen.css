@@ -3,7 +3,6 @@
 html {
   color: white;
   font-family: "Karma", sans-serif;
-  margin: 0px; 
 }
 
 body {
@@ -104,6 +103,7 @@ h3{
 
 p {
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
