@@ -3,7 +3,7 @@
 html {
   color: white;
   font-family: "Karma", sans-serif;
-  margin: 0px; 
+  margin: 0px;
 }
 
 body {
@@ -54,8 +54,8 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
-    margin: 20px;
+    font-size: 20px;
+    margin: 25px;
 }
 
 .topnav a:hover {
@@ -92,15 +92,8 @@ h2 {
   text-align: center;
 }
 
-.BlogText .pic{
-  font-size: 20px;
-  text-align: center;
-}
-
-.BlogText p .pic p{
-  font-size: 12px;
-  color: white;
-  padding-bottom: 0px;
+h4 {
+  font-weight: normal;
 }
 
 .BlogText > p{
@@ -109,23 +102,14 @@ h2 {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
-img {
-  border: 2px solid white;
-  margin-bottom: 0px;
-}
-
-
-.pic2 {
-  flex: 50%;
-  padding: 5px;
-  text-align: center;
-}
+/* Pictures */
 
 .vid {
   margin: 20px;
-  flex: 50%;
+  width: 50%;
   text-align: center;
 }
 
@@ -133,13 +117,23 @@ img {
   border: 2px solid white;
 }
 
-
-
 .center {
   text-align: center;
 }
 
-.pics{
+img {
+  border: 2px solid white;
+  margin-bottom: 0px;
+}
+
+.pics{ /*Multiple pictures in a row*/
+  display: flex;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.pics_three{ /*Multiple pictures in a row*/
   display: flex;
   text-align: center;
 }
@@ -148,6 +142,53 @@ img {
   padding: 15px;
   text-align: center;
   width:33%;
+}
+
+.pic2 {
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+}
+
+.pic2>p, .pic3>p {
+  font-size: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.BlogText .pic{
+  font-size: 20px;
+  text-align: center;
+}
+
+.pic { /* One centered picture */
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.pic>p{
+  color: white;
+  padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+}
+
+comment {
+  color: white;
+  padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Buttons */
+
+.buttons {
+  font-size: 25px;
 }
 
 /* Footer */
@@ -162,7 +203,14 @@ footer {
   padding: 60px;
 }
 
-.fa, #github {
+.fa-facebook:hover, .fa-instagram:hover, .fa-linkedin:hover {
+  color: #2b3c5a;
+  border: 2px solid #2b3c5a;
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin {
+    color: white;
+    border: 2px solid white;
     font-size: 14px;
     padding: 20px;
     width: 50px;
@@ -171,25 +219,4 @@ footer {
     border-radius: 50%;
     float: center;
     margin: 10px;
-}
-
-.fa:hover, #github:hover {
-    color: #2b3c5a;
-    border: 2px solid #2b3c5a;
-}
-
-.fa-facebook, .fa-instagram, .fa-linkedin, #github {
-    color: white;
-    border: 2px solid white;
-}
-
-.pic>p {
-  font-size: 15px;
-  padding-left: 300px;
-  padding-right: 300px;
-}
-.pic2>p {
-  font-size: 15px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
