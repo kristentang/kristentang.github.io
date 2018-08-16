@@ -76,7 +76,7 @@ a:hover {
 }
 
 a {
-  color: #24334c;
+  color: #2b3c5a;
 }
 
 .BlogTitles a:hover {
@@ -99,6 +99,10 @@ h3{
   padding-left: 60px;
   font-size: 40px;
   margin: 0px;
+}
+
+h4 {
+  font-weight: normal;
 }
 
 p {
