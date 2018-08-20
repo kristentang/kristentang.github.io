@@ -92,6 +92,11 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
 h4 {
   font-weight: normal;
 }
@@ -183,6 +188,8 @@ comment {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px
 }
 
 /* Buttons */
