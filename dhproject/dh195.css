@@ -1,0 +1,65 @@
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  color: lightgreen;
+  margin-bottom: 0px;
+}
+
+p1 {
+  font-size: 25px;
+}
+
+.row { /*Multiple pictures in a row*/
+  display: flex;
+}
+
+.column {
+  width: 50%;
+  margin: 20px;
+}
+
+a {
+  font-size: 30px;
+  text-align: center;
+}
+
+.quotes {
+  border: 2px solid black;
+  color: grey;
+  font-size: 14px;
+  font-style: italic;
+  padding: 20px;
+}
+
+.pics{ /*Multiple pictures in a row*/
+  display: flex;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.pic2 {
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+}
+
+color {
+  color: pink;
+}
