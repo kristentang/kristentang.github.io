@@ -1,28 +1,89 @@
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+.body {
   margin: 40px;
 }
 
 h1 {
   font-size: 40px;
   text-align: center;
+  color: #3D89AF;
 }
 
 h2 {
   font-size: 20px;
   text-align: center;
+  color: #E05581; /* pink */
 }
 
 h3 {
   font-size: 20px;
   text-align: center;
-  color: lightgreen;
+  color: #5AC999; /* light green */
   margin-bottom: 0px;
+}
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 55px;
+  margin: 1px;
 }
 
 p1 {
   font-size: 25px;
+}
+
+p2 { /* Footer */
+  font-size: 16px;
+}
+
+.title {
+  background-color: #4E6F7C;
+  padding: 10px;
+}
+
+#logo_large {
+  margin: -3px;
+}
+#logo_small {
+  margin: -2px;
+}
+#column_logo {
+  width: 30%;
+  margin: 20px;
+}
+#column_title {
+  margin: 0px;
+  width: 50%
+}
+
+.topnav { /* Add a black background color to top navigation */
+  overflow: hidden;
+  background-color: #394958;
+  margin: 0px;
+}
+
+.topnav a { /* Style the links inside the navigation bar */
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4E6F7C;
+  color: white;
 }
 
 .row { /*Multiple pictures in a row*/
@@ -34,11 +95,12 @@ p1 {
   margin: 20px;
 }
 
-a {
-  font-size: 30px;
+#next {
   text-align: center;
-  color: lightblue; 
+  color: white;
+
 }
+
 
 .quotes {
   border: 2px solid black;
@@ -63,4 +125,38 @@ a {
 
 color {
   color: pink;
+}
+
+
+.button {
+    background-color: #394958;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  background-color: #394958;
+  color: white;
+  font-size: 16px;
+  padding: 20px 40px 20px 20px;
+}
+
+#footer_text {
+  text-align: right;
+}
+
+#footer_logos {
+  text-align: left;
 }
