@@ -3,12 +3,16 @@
 html {
   color: white;
   font-family: "Karma", sans-serif;
-  margin: 0px;
 }
 
 body {
   background-color: #637288;
   margin: 0px;
+}
+
+.BlogText {
+  padding-left: 17%;
+  padding-right: 17%;
 }
 
 /* Name Banner */
@@ -72,11 +76,11 @@ body {
 
 a:hover {
   color: #9cc4bd;
-  border: #9cc4bd;
-}
+  border: #9cc4bd;}
 
 a {
   color: #2b3c5a;
+font-style: bold;
 }
 
 
@@ -104,22 +108,22 @@ h4 {
 .BlogText > p{
   font-size: 20px;
   color: white;
-  padding-left: 60px;
-  padding-right: 60px;
   padding-bottom: 0px;
   font-family: 'Roboto', sans-serif;
+  line-height: 175%;
+  text-indent: 5%;
 }
 
 /* Pictures */
 
 .vid {
-  margin: 20px;
-  width: 50%;
+  margin: 2px;
   text-align: center;
 }
 
 .vid > video {
   border: 2px solid white;
+  text-align: center;
 }
 
 .center {
@@ -134,8 +138,8 @@ img {
 .pics{ /*Multiple pictures in a row*/
   display: flex;
   text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .pics_three{ /*Multiple pictures in a row*/
@@ -151,14 +155,14 @@ img {
 
 .pic2 {
   width: 50%;
-  padding: 15px;
+  padding: 2%;
   text-align: center;
 }
 
 .pic2>p, .pic3>p {
   font-size: 15px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .BlogText .pic{
@@ -167,30 +171,29 @@ img {
 }
 
 .pic { /* One centered picture */
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
-}
-
-.pic>p{
-  color: white;
-  padding-bottom: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  padding-left: 300px;
-  padding-right: 300px;
+  margin-left: 2%;
+  margin-right: 2%;
   text-align: center;
 }
 
 comment {
   color: white;
-  padding-bottom: 0px;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
-  margin-left: 20px;
-  margin-right: 20px
+  margin: 0px;
+  padding: 0px;
+
 }
+
+comment > p{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+
+}
+
 
 /* Buttons */
 
