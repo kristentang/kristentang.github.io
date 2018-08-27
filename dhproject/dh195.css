@@ -1,29 +1,30 @@
 body {
-  font-size: 16px;
+  font-size: 22px;
   font-family: 'Roboto', sans-serif;
   margin: 0px;
 }
 
 .body {
-  margin: 40px;
+  margin: 50px 150px 50px 150px;
 }
 
 h1 {
   font-size: 40px;
   text-align: center;
   color: #3D89AF;
+  padding-top: 60px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 28px;
   text-align: center;
   color: #E05581; /* pink */
 }
 
-h3 {
-  font-size: 20px;
+ h3 {  /* student quotes */
+  font-size: 28px;
   text-align: center;
-  color: #5AC999; /* light green */
+  color: #37718E; /* light green */
   margin-bottom: 0px;
 }
 
@@ -34,11 +35,29 @@ h4 {
 }
 
 p1 {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 p2 { /* Footer */
-  font-size: 16px;
+  font-size: 18px;
+}
+
+#lightpink {
+  color: pink; /* pink */
+  font-size: 30px;
+}
+
+#lightpink_small {
+  color: pink; /* pink */
+  font-size: 22px;
+}
+
+a {
+  color: #ff9bac; /* pink */
+}
+
+a:hover, #lightpink:hover, #lightpink_small:hover {
+  color: #3D89AF;
 }
 
 .title {
@@ -73,7 +92,7 @@ p2 { /* Footer */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
@@ -92,7 +111,7 @@ p2 { /* Footer */
 
 .column {
   width: 50%;
-  margin: 20px;
+  margin: 50px;
 }
 
 #next {
@@ -101,13 +120,19 @@ p2 { /* Footer */
 
 }
 
-
 .quotes {
-  border: 2px solid black;
-  color: grey;
-  font-size: 14px;
-  font-style: italic;
-  padding: 20px;
+  border: 10px double white;
+  color: white;
+  font-size: 22px;
+  padding: 20px 40px 40px 40px;
+  margin: 20px 100px 20px 100px; ;
+  background-color: #85A1A5;
+}
+
+.double_space {
+  line-height: 250%;
+  padding-left: 44px ;
+  text-indent: -44px ;
 }
 
 .pics{ /*Multiple pictures in a row*/
@@ -123,11 +148,6 @@ p2 { /* Footer */
   text-align: center;
 }
 
-color {
-  color: pink;
-}
-
-
 .button {
     background-color: #394958;
     border: none;
@@ -136,9 +156,13 @@ color {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    line-height: 200%
+
 }
 
 .button:hover {
@@ -149,7 +173,7 @@ color {
 .footer {
   background-color: #394958;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   padding: 20px 40px 20px 20px;
 }
 
