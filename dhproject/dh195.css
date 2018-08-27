@@ -5,7 +5,10 @@ body {
 }
 
 .body {
-  margin: 50px 150px 50px 150px;
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-bottom: 50px;
+  line-height: 150%;
 }
 
 h1 {
@@ -40,6 +43,10 @@ p1 {
 
 p2 { /* Footer */
   font-size: 18px;
+}
+
+.body > p {
+  text-indent: 10%;
 }
 
 #lightpink {
@@ -125,8 +132,13 @@ a:hover, #lightpink:hover, #lightpink_small:hover {
   color: white;
   font-size: 22px;
   padding: 20px 40px 40px 40px;
-  margin: 20px 100px 20px 100px; ;
+  margin: 20px 20px 60px 20px;
   background-color: #85A1A5;
+  text-align: center;
+}
+
+.quotes img {
+  border: 3px solid white;
 }
 
 .double_space {
