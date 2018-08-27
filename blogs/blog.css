@@ -11,8 +11,8 @@ body {
 }
 
 .BlogText {
-  padding-left: 17%;
-  padding-right: 17%;
+  padding-left: 23%;
+  padding-right: 23%
 }
 
 /* Name Banner */
@@ -187,7 +187,6 @@ comment > p{
 .buttons>a {
   font-size: 28px;
   font-family: "Karma", sans-serif;
-
 }
 
 /* Footer */
