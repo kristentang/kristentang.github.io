@@ -39,7 +39,6 @@ body {
 
 }
 
-
 #banner_in p1{
   font-size: 175px;
   font-family: 'Lovers Quarrel', cursive;
@@ -60,15 +59,18 @@ body {
     text-decoration: none;
     font-size: 20px;
     margin: 25px;
+    font-family: "Karma", sans-serif;
 }
 
 .topnav a:hover {
     color: #9cc4bd;
+    font-family: "Karma", sans-serif;
 }
 
 .topnav a.active {
     border: 2px solid white;
     color: white;
+    font-family: "Karma", sans-serif;
 }
 
 
@@ -76,27 +78,25 @@ body {
 
 a:hover {
   color: #9cc4bd;
-  border: #9cc4bd;}
+  border: #9cc4bd;
+  font-family: 'Roboto:regular', sans-serif;
+
+}
 
 a {
   color: #2b3c5a;
-font-style: bold;
+  font-family: 'Roboto:regular', sans-serif;
 }
 
 
-h1 {
+h1 { /* Blog Title */
   font-size: 65px;
   text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 17%;
+  padding-right: 17%;
 }
 
-h2 {
-  font-size: 55px;
-  text-align: center;
-}
-
-h3 {
+h3 { /* Blog SubTitle */
   font-size: 35px;
   text-align: center;
 }
@@ -111,7 +111,7 @@ h4 {
   padding-bottom: 0px;
   font-family: 'Roboto', sans-serif;
   line-height: 175%;
-  text-indent: 5%;
+  text-indent: 8%;
 }
 
 /* Pictures */
@@ -138,13 +138,6 @@ img {
 .pics{ /*Multiple pictures in a row*/
   display: flex;
   text-align: center;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-.pics_three{ /*Multiple pictures in a row*/
-  display: flex;
-  text-align: center;
 }
 
 .pic3 {
@@ -157,12 +150,6 @@ img {
   width: 50%;
   padding: 2%;
   text-align: center;
-}
-
-.pic2>p, .pic3>p {
-  font-size: 15px;
-  padding-left: 2%;
-  padding-right: 2%;
 }
 
 .BlogText .pic{
@@ -183,7 +170,6 @@ comment {
   text-align: center;
   margin: 0px;
   padding: 0px;
-
 }
 
 comment > p{
@@ -191,14 +177,17 @@ comment > p{
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 40px;
+  margin: 0px;
 
 }
 
 
 /* Buttons */
 
-.buttons {
-  font-size: 25px;
+.buttons>a {
+  font-size: 28px;
+  font-family: "Karma", sans-serif;
+
 }
 
 /* Footer */
