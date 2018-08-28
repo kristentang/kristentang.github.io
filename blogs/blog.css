@@ -178,7 +178,10 @@ comment > p{
   padding-right: 10%;
   padding-bottom: 40px;
   margin: 0px;
+}
 
+#pic_link:hover {
+  opacity: .3;
 }
 
 
