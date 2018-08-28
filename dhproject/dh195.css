@@ -181,6 +181,11 @@ a:hover, #lightpink:hover, #lightpink_small:hover {
 
 }
 
+li {
+  padding-left: 20px ;
+  text-indent: -20px ;
+}
+
 .button:hover {
   background-color: #ddd;
   color: black;
