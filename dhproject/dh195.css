@@ -160,6 +160,10 @@ a:hover, #lightpink:hover, #lightpink_small:hover {
   text-align: center;
 }
 
+#pic_link:hover {
+  opacity: 0.3;
+}
+
 .button {
     background-color: #394958;
     border: none;
