@@ -11,17 +11,28 @@ body {
   line-height: 150%;
 }
 
+.body2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
 h1 {
   font-size: 40px;
   text-align: center;
   color: #3D89AF;
   padding-top: 60px;
+  line-height: 120%;
 }
 
 h2 {
   font-size: 28px;
   text-align: center;
   color: #E05581; /* pink */
+  padding-top: 30px;
+  font-weight: bolder;
+
 }
 
  h3 {  /* student quotes */
@@ -29,12 +40,25 @@ h2 {
   text-align: center;
   color: #37718E; /* light green */
   margin-bottom: 0px;
+  font-weight: bolder;
 }
 
 h4 {
   font-family: 'Playfair Display', serif;
   font-size: 55px;
   margin: 1px;
+}
+
+h5 {
+  color: #3D89AF;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+black {
+  color: black;
+  font-weight: normal;
 }
 
 p1 {
@@ -61,10 +85,17 @@ p2 { /* Footer */
 
 a {
   color: #ff9bac; /* pink */
+  text-decoration: none;
 }
 
 a:hover, #lightpink:hover, #lightpink_small:hover {
   color: #3D89AF;
+  text-decoration: underline;
+}
+
+a>h1:hover {
+  color: #3D89AF;
+  text-decoration: none;
 }
 
 .title {
@@ -135,6 +166,7 @@ a:hover, #lightpink:hover, #lightpink_small:hover {
   margin: 20px 20px 60px 20px;
   background-color: #85A1A5;
   text-align: center;
+  font-weight: normal;
 }
 
 .quotes img {
@@ -145,6 +177,14 @@ a:hover, #lightpink:hover, #lightpink_small:hover {
   line-height: 250%;
   padding-left: 44px ;
   text-indent: -44px ;
+}
+
+.double_space > a {
+  color: black;
+}
+
+.double_space > a:hover {
+  color: #3D89AF;
 }
 
 .pics{ /*Multiple pictures in a row*/
@@ -160,6 +200,10 @@ a:hover, #lightpink:hover, #lightpink_small:hover {
   text-align: center;
 }
 
+video {
+  border: 3px solid white;
+}
+
 #pic_link:hover {
   opacity: 0.3;
 }
@@ -168,7 +212,7 @@ a:hover, #lightpink:hover, #lightpink_small:hover {
     background-color: #394958;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 7px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -181,9 +225,17 @@ a:hover, #lightpink:hover, #lightpink_small:hover {
 
 }
 
+object {
+  margin-left: -150px;
+  margin-right: -150px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: white; 
+}
+
 li {
-  padding-left: 20px ;
-  text-indent: -20px ;
+  padding-left: 40px ;
+  text-indent: -30px ;
 }
 
 .button:hover {

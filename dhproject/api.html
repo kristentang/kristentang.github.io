@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kristen Tang - DH195 Final</title>
-<link rel="stylesheet" href="dh195.css">
+<link rel="shortcut icon" href="logo.jpg">
+<title>DH195 Final Project</title><link rel="stylesheet" href="dh195.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:thin|Playfair+Display">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset=UTF-8>
@@ -27,6 +27,7 @@
 
   <div class="topnav">
     <a href = "resources.html">Resources</i></a>
+    <a href = "conclusion.html">Conclusion</i></a>
     <a class = "active" href = "api.html">API Case Study</i></a>
     <a href = "curriculum.html">Impact of Curriculum</a>
     <a href = "intro.html">Introduction</a>
@@ -36,53 +37,145 @@
 
   <h1>Case Study: An In Depth Look at the Curriculum for APIs</h1>
 
-  <h2>Why did I choose this lesson for an in depth look?</h2>
-    <li>Very important concept
-    <li>One of the lessons the teaching team reworked for our class and involved a lot tough decision making for us, so I can explain the reasoning behind our decisions
-    <li>3/5 projects ended up using APIs, which I believe is a fairly high rate of groups incorporating it - significant for tools groups selected to use besides web dev
+  <h2>Why this particular lesson for an in-depth look?</h2>
+    <p>
+      APIs are a “set of methods of communication between various software components” <a href = “resources.html” target = “_blank”>(Rascia 2017)</a>. This can refer to a particular software’s ability to extract data from another software, and incorporate this information into its own applications. This is done by sending a request and recieving a response. The use of APIs is extremely useful, as it is a convenient method for one software to utilize information, such as data and algorithms, that has already been established.
+    </p>
+    <p>
+      In picking a lesson to take an in-depth look at curriculum, I looked for one in which I could evaluate both Girls Who Code’s provided resources and the decisions made in the classroom by the teaching team. I believe that the lesson on Application Program Interfaces (APIs) in the Web Development unit meets both these standards. First, APIs are powerful and useful programming resources, and the teaching team felt that it would be important to introduce APIs to students and inspire them to think of ways to incorporate them in the future, such as their final projects. Second, as this lesson was particularly difficult to teach and required a significant amount of reworking, I believe this is an appropriate lesson to study, as it can strongly represent the teaching team’s decision-making and adaption of curriculum to our own class. Additionally, three out of five of the final projects ended up using APIs. I believe its consistent presence in the final projects is tangible evidence of successfully teaching a challenging topic.
+    </p>
 
   <center>
     <br><br>
     <button class="button" onclick="window.location='#original'">Go To <u>The Original Lesson</u></button><br>
-    <button class="button" onclick="window.location='#second'">Go To <u>The Teaching Team's Lesson</u></button><br>
+    <button class="button" onclick="window.location='#second'">Go To <u>The Teaching Team's Addition</u></button><br>
     <button class="button" onclick="window.location='#finalprojects'">Go To <u>APIs Used in Final Projects</u></button><br>
     <br><br>
   </center>
 
-  <a name ="original"><h1>The Original Lesson</h1></a>
+  <a name ="original"></a>
+  <h1>The Original Lesson</h1>
 
-    <center><img src="agenda.jpg" alt="Agenda" width = 50%><center>
+    <center><img src="agenda.jpg" alt="Agenda" width = 50%></center>
     <center>
-      <button class="button" onclick="window.location='#24'">Go To <u>Hook and Introduction</u> & <u>Women in Tech Spotlight</u></button>
-      <button class="button" onclick="window.location='#36'">Go To <u>How to use an API</u> & <u>API Project - Build and Test</u></button><br>
-      <button class="button" onclick="window.location='#8'">Go To <u>APIs for the Future</u></button>
+      <button class="button" onclick="window.location='#2'">Go To <u>Hook and Introduction</u></button>
+      <button class="button" onclick="window.location='#3'">Go To <u>How to use an API</u></button><br>
+      <button class="button" onclick="window.location='#4'">Go To <u>Women in Tech Spotlight</u></button>
+      <button class="button" onclick="window.location='#4'">Go To <u>API Project - Build and Test</u></button>
       <button class="button" onclick="window.location='#9'">Go To <u>Journals and Wrap-Up</u></button><br>
       <br><br>
     </center>
 
 
-  <a name = "#24"><h1>Hook and Introduction <br>&<br> Women in Tech Spotlight</h1></a>
+  <a name = "2"></a>
+  <h1>Hook and Introduction</h1>
+
+    <p>
+      Before jumping into teaching technical coding skills or working on projects, the Girls Who Code curriculum begins its lessons with introductions and warm-ups that show students the relevance and significance of the particular topic. Much of the curriculum was designed to begin by providing students with examples of how coding is used in everyday applications <a href = "resources.html" target = "_blank">(Cooper & Dierker 92)</a>, it is important to demonstrate these applications to the students.
+    When introducing students to an application of computer science, it is important to find examples with the right balance of being relatable and being unique, and that have recognizable fundamentals yet leave students amazed at the complexity and curious about how it was made <a href = "resources.html" target = "_blank">(Montfort 108)</a>. These demonstrations are important in giving students an understanding of the bigger picture and what they can accomplish in the future. The focus of the Summer Immersion Program is not what projects students are creating in that summer, but for girls to want to continue coding. Aspects of the lesson will inevitably be difficult, yet these examples can serve as inspiration for students to return to topics they were briefly introduced to and pursue them further, whether it be in the final projects, while in high school, or in college classes.
+    </p>
+
+    <div class= "quotes">
+      <h3>This Lesson's Introduction</h3><br>
+      <img src="webappshowcase.jpg" alt="Web App Showcase Slide" width = 100%>
+      <p>Visit Hackbright Academy to see the Web App Showcase: <a href = "https://hackbrightacademy.com/blog/51-brilliant-web-apps-built-women-engineers/" target = "_blank">https://hackbrightacademy.com/blog/51-brilliant-web-apps-built-women-engineers/</a></p>
+    </div>
+
+    <p>
+      For this particular lesson, the hook for the day was having students look at the a showcase of 51 web apps (which happened to be built by women!). The website that listed these Web Apps included descriptions of each project and a list of the APIs the engineers had used to made them. This would give the girls an opportunity to see examples of APIs, recognize their usefulness, and begin considering how they themselves would want to use them. While the girls wouldn't have a formal defintion of APIs at this point, exploring how they had been implemented by others gave them a hypothesis as to what they are and realize how they might have previously interacted with APIs in websites they actually use. Below is the slide containing instructions for conducting this investigation and a link to the website students were directed to.
+    </p>
 
 
-    <center><img src="webappshowcase.jpg" alt="Web App Showcase Slide" width = 50%></center>
-    <center><p><a href = "https://hackbrightacademy.com/blog/51-brilliant-web-apps-built-women-engineers/" target = "_blank">https://hackbrightacademy.com/blog/51-brilliant-web-apps-built-women-engineers/<a></p></center>
-    <center><img src="wit.jpg" alt="Women in Tech Slide" width = 50%></center>
-    <center><p><a href = "http://niffyat.net/" target = "_blank">http://niffyat.net/</a></p></center>
+  <a name = "#3"></a>
+  <h1>How to Use an API</h1>
 
-  <br>
+  <h2>Code-Along</h2>
 
-  <h2>What is the purpose of the Introduction?</h2>
-    <li>Introduce students to new examples of computer science
+  <p>
+    Code-alongs typically were a successfully method of teaching girls new information, as they provided explicit directions and examples of how to use each specific new concept or function. In addition, asking students to manipulate certain parts of the code and hypothesize how if change the code’s output helped build familiarity and intuition with how code words <a href = "resources.html" target = "_blank">(Montfort 107)</a>. Going step-by-step, making the code more complex in small increments gave students a starting point that allowed them to feel in control of what they were learning, which gave them confidence to move on to the next step  <a href = "resources.html" target = "_blank">(Eney et al. 49)</a>. Keeping all of the students on the same page was also very useful for the teaching team to evaluate the progress of the class and know exactly which additions of the code were causing difficulties for everyone <a href = "resources.html" target = "_blank">(Muller & Kidd 184)</a>.
+  </p>
 
-  <h2>How does Tiffany Taylor’s work relate to what you have learned so far?</h2>
-    <li>Answer question and explain how this particular Women in Tech Spotlight contributed to the lesson
 
-  <h2>What is the purpose of the Women in Tech spotlight?</h2>
-    <li>Real life examples and motivation
-    <li>Programming increasingly used in less traditionally computer oriented occupations
-    <br><a href = "resources.html" target = "_blank">(Cooper & Dierker)</a>
-    <li>Women in computing seminar
-    <br><a href = "resources.html" target = "_blank">(Eney et al.)</a>
+  <h2>Why this lesson was difficult: </h2>
+
+  <p>
+    However, this code-along was not as successful as previous lessons. I believe this is because its end product was too ambitions. Rather than using the code-along as an opportunity to introduce girls to fundamental concepts, the code-along was designed for students to reach an end product of an interactive map.
+  </p>
+  <p>
+    The curriculum provided slides and a sample solution. We alternated by explaining the slides and then using the sample solution to lead a code-along. Both the slides and the sample solution were broken up into seven steps. The lesson had students incorporate APIs into JavaScript, which the girls had only learned they day before. This added an additional layer of complexity to the lesson because the girls had to not only apply a brand new concept, but also do so in a language they are still familiarizing themselves with. In each step, students were responsible for updating and HTML file and a JavaScript file. Additionally, APIs were buried deep into the lesson. In a seven-step code, APIs did not appear until steps five, six, and seven. By the time students had reached these steps, they were already exhausted. The corresponding slides for these steps provided introduced the concepts of forming requests and receiving responses with analogies and samples. However, there were no opportunities for students to engage with the concept through coding simple tasks. Instead, they were expected to transfer what they learned about hypothetical examples to already complex code. As students were still confused about APIs and frustrated with the project, we knew that students would be blindly copying down code. Even if they had the energy to try to understand each line, we knew APIs were still a very abstract idea to them and they would struggle. We ultimately chose to end this lesson early once we decided that continuing would no longer be productive.
+  <p>
+
+  <div class = "quotes">
+    <h3>Expert from the Code-Along</h3><br>
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/project1.jpg" target = "_blank"><img src="project1.jpg" alt="API Project Instructions" width = 100% id = "pic_link"></center></a>
+    </div>
+    <p>The seven steps of the code-along, which include steps for an HTML file and a JavaScript file</p>
+
+    <h3>Step 5</h3><br>
+
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/request.jpg" target = "_blank"><img src="request.jpg" alt="Request Slide" width = 100% id = "pic_link"></center></a>
+    </div>
+    <p>Explaining Requests</p><br>
+
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/response.jpg" target = "_blank"><img src="response.jpg" alt="Response Slide" width = 100% id = "pic_link"></center></a>
+    </div>
+    <p>Explaining Responses</p><br>
+
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/step5.jpg" target = "_blank"><img src="step5.jpg" alt="API Project Instructions" width = 100% id = "pic_link"></center></a>
+    </div>
+    <p>The provided instructions for step 5</p><br>
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/code5.jpg" target = "_blank"><img src="code5.jpg" alt="API Project Instructions" width = 100% id = "pic_link"></center></a>
+    </div>
+    <p>Code for step 5 of the code-along </p><br>
+
+    <h3>Step 6</h3><br>
+
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/json1.jpg" target = "_blank"><img src="json1.jpg" alt="JSON Slide 1" width = 100% id = "pic_link"></center></a>
+    </div>
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/json2.jpg" target = "_blank"><img src="json2.jpg" alt="JSON Slide 2" width = 100% id = "pic_link"></center></a>
+    </div>
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/json3.jpg" target = "_blank"><img src="json3.jpg" alt="JSON Slide 3" width = 100% id = "pic_link"></center></a>
+    </div>
+    <p>Explaining JSON </p><br>
+
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/step6.jpg" target = "_blank"><img src="step6.jpg" alt="API Project Instructions" width = 100% id = "pic_link"></center></a>
+    </div>
+    <p>The provided instructions for step 6</p><br>
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/code6.jpg" target = "_blank"><img src="code6.jpg" alt="API Project Instructions" width = 100% id = "pic_link"></center></a>
+    </div>
+    <p>Code for step 5 of the code-along </p>
+
+  </div>
+
+
+
+
+  <a name = "4"></a>
+  <h1>Women in Tech Spotlight</h1>
+
+  <p>
+    Women in Tech Spotlights were included with every lesson in the Girls Who Code curriculum. Each spotlight introduced students to a woman in the computer science field and highlighted her accomplishments. When possible, the spotlight also included additional information about her path to that particular field or the passions behind her work. The spotlights were strategically placed based on matches between the woman’s work and the lesson of the day, so that students could see how a woman was using coding in that particular field. For example, in this particular lesson, Tiffany Taylor’s use of APIs in her projects was highlighted.
+  </p>
+
+    <div class = "quotes">
+      <p>This Lesson's Women in Tech Spotlight</p>
+      <img src="wit.jpg" alt="Women in Tech Slide" width = 100%>
+      <p>Visit Tiffany Taylor's website to see her projects: <a href = "http://niffyat.net/" target = "_blank">http://niffyat.net/</a></p>
+    </div>
+
+  <p>
+    The effect of the spotlight varied day-to-day. Some days, students learned about women working in fields they had never heard of or on projects that they never could have thought of, expanding their definition of computer science. Sometimes, students connected with the spotlight’s passions. On other days, students learned about the woman’s story and the qualities she had that helped her succeed. By providing students with real life role models of computer scientists, students could see themselves being part of the computer science field themselves as well. Ultimately, as the girls described in their journals, the spotlights were a valuable addition to the curriculum and worth the class time.
+  </p>
 
   <div class = "quotes">
     <h3>On the significance of the Women in Tech spotlight, <br>in their own words…</h3>
@@ -96,52 +189,58 @@
       "The video games that Kim Swift made excited me the most since we also got to make some sort of video game today. I might want to make a longer video game myself after learning about Kim Swift." - AD
     </p>
     <p>
-      "The lady from women in tech spotlight, Marieme Jamme is sooo amazing!!! She was really inspiring to read about." - KC
+      "The lady from women in tech spotlight, Marieme Jamme is sooo [<i>sic</i>] amazing!!! She was really inspiring to read about." - KC
     </p>
     <p>
       "What I liked best about today was learning about [Ada] Lovelace and getting to start playing around with Scratch. I never knew that the first programmer was a woman!" - GS
     </p>
   </div>
 
-  <a name = "#36"><h1>How to Use an API <br>&<br> API Project - Build & Test</h1></a>
+  <a name = "#6"></a>
+  <h1>API Project - Build and Test</h1>
 
-    <h2>(include examples of code along - show lack of explanations)</h2>
+  <div class = "quotes">
+    <p>Instructions for the API Website Project</p>
 
-    <h2>Why this lesson was difficult: </h2>
-
-    <p>
-      The girls seemed to really like the HTML, CSS, and JS lessons, and were able to create so amazing websites. The one lesson that was difficult for the girls was the API lesson. I think APIs are incredibly useful and I’m glad they are included in the curriculum, but I think the lesson was too difficult for our girls to follow. Code alongs have been very helpful for our girls to learn new information, however the code provided by the curriculum did not have very clear explanation of the new additions to the code.
-      <br><br>
-      The lesson also incorporated HTML and JS, which are new concepts to the girls. This added an additional layer to the lesson because the girls had to not only apply a brand new concept, but also do so in a language they are still familiarizing themselves with. This is where clear explanations would have really helped the girls. Because there were so much content, it also would have been nice to differentiate between the concepts/code that the girls had already learned, were related to APIs, and JS code that was new.
-      <br><br>
-      We ended the lesson early because we could tell (from observing them during the lessons and reading their journals) the students were lost and frustrated. Most of the girls ended up copying and pasting from the provided github code, and expressed in their journals how they felt like they did not get much out of doing so, even if they were able to get their code to work.
-    </p>
-
-  <a name = "#8"><h1>APIs for the Future</h1></a>
-
-  <h2>Describe the activity</h2>
-
-  <br><br>
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/projectinstructions1.jpg" target = "_blank"><img src="projectinstructions1.jpg" alt="API Project Instructions" width = 100% id = "pic_link"></center></a>
+    </div>
+    <div class = "pic">
+      <a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/projectinstructions2.jpg" target = "_blank"><img src="projectinstructions2.jpg" alt="API Project Instructions" width = 100% id = "pic_link"></center></a>
+    </div>
+  </div>
 
   <p>
-    When we ended the lesson, we wanted to give the girls time to decompress, so we didn’t want to force them to keep thinking about APIs. Instead, we gave them time to continue working on the websites they had been making for the past two days.
-    We knew this concept of the lesson was important, and we knew that when we recreated the lesson we would want to include a similar activity.
+    This project was for students to add an API to their personal website they had built earlier in the week. This project was very open ended, in allowing students to discover their own implementations of APIs <a href = "resources.html">(Montfort 107)</a>. As our students did not have a deep enough grasp of APIs to begin learning on their own, we decided to skip this part of the lesson. We believed that asking students to begin a project when they felt lost from the beginning would create more frustration than benefit.
   </p>
-
-  <a name = "#9"><h1>Journals and Wrap Up</h1></a>
 
   <p>
-    At the end of the day, we took first took time to apologize to the girls for not being as prepared as we should have been. We let them know that we believed the lesson was too complex for a beginner lesson, and that had we been more familiar with the lesson, we should have recognized this earlier on.
-    <br><br>
-    We knew what kind of feedback we would be receiving from the girls in their journals. This was not the first time that we had gotten negative feedback, and from similar experiences, such as during the first Python lesson, we were not scared of the negative feedback because we knew we could rework the lesson.
+    Because we didn't move on to the project and didn't want to burn the girls out, we decided to let them use the rest of the day to make additions and improvements to the personal websites they made during the two previous days of class.
   </p>
+
+  <a name = "#9"></a>
+  <h1>Journals and Wrap Up</h1>
+
+  <p>
+    At the end of the day, we took first took time to apologize to the girls for not being as prepared as we should have been. We let them know that we believed the lesson was too complex for a beginner lesson, and that had we been more familiar with the lesson, we should have recognized this earlier on. Admitting our mistakes is important in creating a learning environment in which students can trust their teachers, advocate for themselves, and know their voice is heard and their opinions are respected <a href = "resources.html" target = "_blank">(Eney et al 49)</a>.
+  </p>
+  <p>
+    The girls submitted journals at the end of every day, which is beneficial to both them and us. It gave the girls the opportunity to reflect on their day - some questions we believe were most beneficial to the students were asking what they were most proud of figuring out that day and what they saw another student do that they were impressed with. It also provides feedback about lessons and extra insight about the day that we found extremely valuable <a href = "resources.html" target = "_blank">(Muller & Kidd 184)</a>. While we generally had a good read on the class during the lessons, the additional explanations of how students felt the lessons went were very helpful, especially in moments where students were very open and brutally honest. It also let the students share stories of things that happened during they day that we didn’t catch. We tried to show students that their opinions were valuable by implementing changes in the lessons based on their suggestion. We believe this ultimately created a learning environment where students could trust that every activity we did had purpose and was in their interest.
+  </p>
+  <p>
+    One big change we made to the curriculum was after the first lesson of Python, which was very difficult for the girls. Taking time to read the girls’ feedback allowed for us to design a lesson that was better suited to their needs. After this lesson, their journals were crucial in showing us how our lesson was received. In this case, knowing that we had succeeded allowed us to confidently move on in the curriculum and reuse these strategies when reworking future lessons.
+  </p>
+  <p>
+    We found that it typically takes the girls about ten minutes to write in their journals. We never wanted them to feel rushed, so we tried to leave the last fifteen minutes of class for their journals. We also gave girls the option to write their journals on their way home, which gave girls who rode the bus a fifteen minute window to walk to the bus stop and catch their bus. We appreciated the responsibility of the girls who rode the bus for responding to the journals as soon as they had the chance. We were glad to help make their commute home faster and less stressful, making this program more accessible to them <a href = "resources.html" target = "_blank">(Eney et al 49)</a>.
+  </p>
+  <p>
+    This was not the first time that we had gotten negative feedback, and from similar experiences, such as during the first Python lesson, we were not scared of the negative feedback because we knew we had reworked lessons in the past and that the girls had responded well to. Below are some excerpts of journal entries of girls who provided explanations of why the lesson was hard for them. As most of the girls ended up copying and pasting without understanding what they were adding to their code, they felt like they did not understand what they were doing even if they were able to get their code to work.
+  </p>
+
 
   <div class = "quotes">
 
     <h3>Answering “How did you feel about the lessons on Web Dev?” <br>in their own words…</h3>
-    <p>
-      "I liked learning about websites but it was difficult to figure out how to do stuff that I wanted. Like, sure I know how to change the background color but that’s not what im [<i>sic</i>] trying to do. I endedup [<i>sic</i>] just like copy pasting most of my code so the final result was cool but i [sic] don’t know if I felt that accomplished from it. Also, I don’t know how I feel about API’s. It was hard to follow and i don’t understand what was going on." - LO
-    </p>
     <p>
       "Overall I enjoyed the Web Dev lessons because they were fun and allowed me to be creative. The only lesson that I didn’t like was the API lesson. I felt that the concepts were abstract and hard to understand and that the map project was hard to follow." - KG
     </p>
@@ -149,46 +248,117 @@
       "I have been told before that the beginning of CS is all about copying, pasting, and just going with the flow of a class/program/etc. to get by as we begin learning, but going back to this weeks API lesson, I did not enjoy the activity. The code along was much too long, and the majority of the code was new and unfamiliar - ultimately remaining unexplained. Despite this, I hope the lesson on Monday will be more enjoyable." - KC
     </p>
     <p>
-      "I found the lessons on WebDev to be helpful. I did not like trying to make APIs because I was confused." - GS
+      "The webdev [<i>sic</i>] lessons were informative but slightly lacking. I did not particularly enjoy the lesson on APIs because it was confusing on many levels and we were just copying code that we did not understand." - GJ
     </p>
     <p>
-      "The webdev lessons were informative but slightly lacking. I did not particularly enjoy the lesson on APIs because it was confusing on many levels and we were just copying code that we did not understand." - GJ
-    </p>
-    <p>
-      "WebDev was so much fun! It wasn’t hard to figure everything out and I feel like it was really rewarding." - AW
-    </p>
-    <p>
-      "I did not like the lesson of the APIs, but the rest was good. I liked building the website and it was pretty fun." - LS
+      "I endedup [sic] just like copy pasting most of my code so the final result was cool but i [sic] don’t know if I felt that accomplished from it." - LO
     </p>
   </div>
 
-  <a name ="second"><h1>The Teaching Team's Lesson</h1></a>
+  <a name ="second"></a>
+  <h1>The Teaching Team's Additions</h1>
 
   <p>
-    While we never ended up doing the API project, there are so many possibilities that I knew our girls would have had fun with it if they had been more comfortable with APIs. While there were other projects or parts of lessons that we never had time to finish and understanding APIs was not critical to move on with the rest of the curriculum, we felt it was important to reteach this lesson because we felt like it is such a useful topic to know. We didn’t want the girls to leave feeling defeated by a topic and scared of incorporating it into their final project or intimidated of learning it in the future. I believe this paid off, seeing as three out of five teams incorporated APIs into their final project.
-    <br><br>
-    (describe different aspects of this lesson - main aspect was starting with a much smaller goal, breaking down explanation step by step, code along - had to accept a much smaller end product, also we made the lesson so we were comfortable with the code and weren’t learning it along with them - had to admit that we were not as prepared as we should have been)
-    <br><br>
-    <center><img src="a0.jpg" alt="API Slide" width = 50%></center>
-    <center><img src="a1.jpg" alt="API Slide" width = 50%></center>
-    <center><img src="a12.jpg" alt="SPI Slide" width = 50%></center>
-
-
+    While we never ended up doing the API project, there are so many possibilities that I knew our girls would have had fun with it if they had been more comfortable with APIs. We felt it was important to reteach this lesson because we felt like it is a useful topic to know. Even more, we didn’t want the girls to leave feeling defeated by a topic and scared of incorporating it into their final project or intimidated of learning it in the future.
+  </p>
+  <p>
+    The most important thing that we changed was making our lesson have a much smaller goal. Rather than having the students integrate an API into a webpage, we decided to teach the students API fundamentals through a site specifically designed for educational purposes. Using this website and a powerpoint we had made, we were able to isolate the steps and walk them through requesting and retrieving information from APIs. Making requests through a web browser, rather than through JavaScript, allowed students to directly interact with the API and immediately recieve requests, without that added obstable of coding in JavaScript. This allowed students to participate in the learning, instead of feeling like they were only copying and pasting <a href = "resources.html" target = "_blank">(Cooper & Dierker 97)</a>.
   </p>
 
-  <a name ="finalprojects"><h1>APIs Used in Final Projects</h1></a>
-  <h2>New Signature US Map API: <a href = "https://newsignature.github.io/us-map/" target = "_blank">https://newsignature.github.io/us-map/</a></h2><br>
-  <center><img src="usmap.jpg" alt="New Signature US Map API used in Preserve to Conserve" width = 50%></center>
+  <div class = "quotes">
+    <p>The <a href = "https://dog.ceo/dog-api/" target = "_blank">Dog API Website</a> that we used in the lesson: </p>
+    <img src="dogapi.jpg" alt="Dog API" width = 100%>
+  </div>
 
-  <br>
-  <h2>Zomato Restaurant Finder API: <a href = "https://developers.zomato.com/api" target = "_blank">https://developers.zomato.com/api</a></h2><br>
-  <center><img src="zomato.jpg" alt="Zomato Restaurant Finder used in Fitness Web" width = 50%></center>
+  <p>
+    In this lesson, we also made sure to thourougly explain every step and participate in each step together as a class. First, to introduce the concept of requests to the students, we showed them how to make a request in a web browser. Making a request in a browswer instead of through a JavaScript allowed them to make their first request in a familiar, user-friendly, and non-intimidating way.
+  </p>
 
-  <br>
-  <h2>Pusher Chat Room API: <a href = "https://pusher.com" target = "_blank">https://pusher.com</a></h2>
-  <center><img src="chat.jpg" alt="Pusher Chat Room used in Safe Place for Minorities" width = 50%></center>
+  <div class = "quotes">
+    <p>Making Reqeusts in a Web Browser</p>
+    <img src="a1.jpg" alt="API Lesson" width = 100%>
+    <br><br><img src="a2.jpg" alt="API Lesson" width = 100%>
+    <p>Get the JSON response for a random dog image by <a href = "https://dog.ceo/api/breeds/image/random" target = "_blank">making a get request in your browser</a> (https://dog.ceo/api/breeds/image/random)</p>
+    <img src="dogwebsite.jpg" alt="Dog API" width = 100%>
+  </div>
 
-  <br>
+  <p>
+    Second, we showed students how to understand the response they recieved. We helped students distinguish betwen the components of the JSON response. For example, we had them identify what part of the response contained the dog's image and how they would extract it.
+  </p>
+
+  <div class = "quotes">
+    <p>Selecting Information from the JSON Reponse</p>
+    <img src="a3.jpg" alt="API Lesson" width = 100%>
+    <br><br><img src="a4.jpg" alt="API Lesson" width = 100%>
+    <p>Get the .jpg for a random dog image by <a href = "https://images.dog.ceo//breeds//collie//n02106030_15619.jpg" target = "_blank">by copying the jpg address into your browser</a> (https://images.dog.ceo//breeds//collie//n02106030_15619.jpg)</p>
+    <br><br><img src="a5.jpg" alt="API Lesson" width = 100%>
+    <br><br><img src="a6.jpg" alt="API Lesson" width = 100%>
+    <p>How to write code that will extract the .jpg from a JSON object</p>
+  </div>
+
+  <p>
+    Next, we taught the class how to change the parameters of the requests they send. Parameters allow user to set specifications for the responses they will recieve. We gave them the opportunity to discover the capabilities of the API by using the documentation of possible parameters as a guide.
+  </p>
+
+  <div class = "quotes">
+    <p>Changing the Parameters of the Request</p>
+    <img src="a7.jpg" alt="API Lesson" width = 100%>
+    <p>Get the JSON response for 5 random dog image by <a href = "https://dog.ceo/api/breeds/image/random/5" target = "_blank">making a get request in your browser</a> (https://dog.ceo/api/breeds/image/random/5) </p>
+    <img src="dogwebsite2.jpg" alt="Dog API" width = 100%>
+    <br><br><img src="a8.jpg" alt="API Lesson" width = 100%>
+    <p>Get the JSON response for images of corgis by <a href = "https://dog.ceo/api/breed/corgi/images" target = "_blank">making a get request in your browser</a> (https://dog.ceo/api/breed/corgi/images)</p>
+    <img src="dogwebsite3.jpg" alt="Dog API" width = 100%>
+  </div>
+
+  <p>
+    Once students were comfortable with the idea of making requests and recieving responses, we finished the lesson by providing some suggestions of fun and user-friendly (intuitive and with good documentation) APIs. Although we didn't use APIs in actual code that day, the mood of the class told us that we had succeeded in making students more comfortable with and intersted using APIs in the future.
+  </p>
+
+  <div class = "quotes">
+    <p>Suggested Fun APIs</p>
+    <img src="a12.jpg" alt="API Lesson" width = 100%>
+  </div>
+
+
+  <a name ="finalprojects"></a>
+  <h1>APIs Used in Final Projects</h1>
+
+  <p>
+    While we never ended up doing the API project, there are so many possibilities that I knew our girls would have had fun with it if they had been more comfortable with APIs. The final projects were a perfect opportunity for the girls to practice using APIs, and we encouraged them to do so. Looking for an API that fit the need of their project was similar to the creative purpose of the original API project <a href = "resources.html" target = "_blank">(Montfort 107)</a>.
+  </p>
+
+  <p>Something unique about the nature of this program’s final projects is that the teaching team was able to be very involved. Unlike typical classes where group projects are mostly completed outside of the classroom, we were present for the entirety of their work time. The teaching team divided up among the projects and became partial members of the groups, demonstrating and then facilitating what it looks like to be a leader and team member <a href = "resources.html" target = "_blank">(Eney et al. 49)</a>. Due to our involvement in the projects, the girls knew that they would have the teaching team’s support and guidance. This gave them extra confidence to dream big and take risks, knowing that they wouldn’t have to figure difficult concepts out on their own. Three groups found APIs that they wanted to include in their project. These groups’ projects are included below, highlighting the APIs they used.
+  </p>
+
+</div>
+<div class = "body2">
+  <div class = "quotes">
+    <h3>Preserve to Conserve</h3>
+    <center><p>Preview Preserve to Conserve's use of the <a href = "https://newsignature.github.io/us-map/" target = "_blank">New Signature US Map API</a> below or check it out at the <a href = "https://preservetoconserve.github.io/Superfinal.html">Preserve to Conserve website</a>.</p></center>
+    <center><object width = 100% height = 450px data="https://preservetoconserve.github.io/Superfinal.html"></object></center>
+  </div>
+
+
+  <div class = "quotes">
+    <h3>Fitness Web</h3>
+    <center><p>Preview Fitness Web's use of the <a href = "https://developers.zomato.com/api" target = "_blank">Zomato Restaurant Finder API</a> below or check it out at the <a href = "https://fitnesswebsite.github.io/restaurants.html">Fitness Web website</a>.</p></center>
+    <center><object width = 100% height = 450px data="https://fitnesswebsite.github.io/restaurants.html"></object></center>
+    <center><a href = "https://raw.githubusercontent.com/kristentang/kristentang.github.io/master/dhproject/fitnesscode.jpg" target = "_blank"><img src="fitnesscode.jpg" alt="Fitness Web Zomato API Code" width = 100% id = "pic_link"></center></a>
+    <p>Code used to make Fitness Web's Restaurant Finder, which shows how well students were evetually able to undertand how to use APIs.</p>
+  </div>
+
+  <div class = "quotes">
+    <h3>Safe Place for Minorities</h3>
+    <center><p>Preview Safe Place for Minorities' use of the <a href = "https://pusher.com" target = "_blank">Pusher Chat Room API</a> below or check it out at the <a href = "https://safeplaceforminorities.github.io/index.html">Safe Place for Minorities website</a>.</p></center>
+    <center><object width = 100% height = 450px data="https://safeplaceforminorities.github.io/index.html"></object></center>
+  </div>
+
+</div>
+<div class = "body">
+  <p>
+    One of my biggest fears after the original API lesson was that students would be too discouraged to see APIs as a topic they would want to return to. As girls had never used APIs to the extent that would be needed to incorporate them into their final projects, the girls’ confidence could not come from knowing that they had already accomplished a similar task. Their confidence and determination was crucial, but it was going to have to come from somewhere else <a href = "resources.html" target = "_blank">(Eney et al. 49)</a>. In the second API lesson, our goal was to reintroduce APIs in a way that was less intimidating. I believe we accomplished this goal by rebuilding the confidence and resilience they approached using APIs in their project, as described by one of the girls after her first day of working on the chatroom API for her group.
+  </p>
+
   <div class  = "quotes">
     <h3>Answering “What are you most proud of accomplishing today?” and “How have you shown that you are intellectually curious?” in the girls’ own words… </h3>
     <p>
