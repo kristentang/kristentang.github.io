@@ -15,6 +15,11 @@ body {
   padding-left: 17%;
   padding-right: 17%;
 }
+.BlogText2 {
+  padding-left: 28%;
+  padding-right: 28%;
+  text-align: center;
+}
 
 /* Name Banner */
 
@@ -130,7 +135,7 @@ a {
   text-decoration: none;
 }
 
-.BlogTitles a:hover {
+/* .BlogTitles a:hover {
   color: #9cc4bd;
   font-family: "Karma", sans-serif;
 
@@ -140,7 +145,7 @@ a {
   color:#2b3c5a;
   font-family: "Karma", sans-serif;
 
-}
+} */
 
 /* Buttons */
 
@@ -155,12 +160,15 @@ a {
 /* Headers, Paragraphs, Images */
 
 h1 {
-  font-size: 65px;
+  font-size: 80px;
   text-align: center;
   padding-left: 17%;
   padding-right: 17%;
   color: #637288;
   font-family: 'Roboto', sans-serif;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h2 {
@@ -185,7 +193,7 @@ h4 { /* Email */
 
 .box p{
   font-size: 24px;
-  color: white;
+  color: black;
   padding-bottom: 0px;
   font-family: 'Roboto', sans-serif;
   line-height: 175%;
@@ -201,18 +209,18 @@ simple {
 }
 
 .box {
-  border: 10px double white;
-  color: white;
+  /* border: 10px double white; */
+  color: black;
   font-size: 22px;
   padding: 20px 40px 40px 40px;
   margin: 20px 20px 60px 20px;
-  background-color: #7F8B9D;
+  /* background-color: #7F8B9D; */
   font-weight: normal;
 
 }
 
 .button {
-    background-color: #2b3c5a;;
+    background-color: #7F8B9D;
     border: none;
     color: white;
     padding: 7px 25px;
@@ -284,16 +292,158 @@ img, video {
 }
 
 .BlogTitles {
-  font-size: 35px;
+  color: white;
+  padding: 35px 75px;
   text-align: center;
-  padding: 20px;
-  position: relative;
-  font-family: "Karma", sans-serif;
+  font-size: 60px;
+  margin: 20px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  line-height: 150%;
+  opacity: .8;
+  font-weight: bold;
 
 }
 
-comment {
+.BlogTitles:hover {
+  opacity: .6;
+  color: black;
+  font-weight: bold;
+
+}
+
+#blog1 {
+  background-image: url("blogs/week1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#blogtitle1 {
+  background-image: url("blogs/week22.jpg");
+  background-position: bottom;
+  background-size: cover;
   color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+#blog2 {
+  background-image: url("blogs/week2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#blogtitle2 {
+  background-image: url("blogs/week2.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+#blog3 {
+  background-image: url("blogs/week3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#blogtitle3 {
+  background-image: url("blogs/week3.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+#blog4 {
+  background-image: url("blogs/week4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#blogtitle4 {
+  background-image: url("blogs/week4.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+#blog5 {
+  background-image: url("blogs/week5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#blogtitle5 {
+  background-image: url("blogs/week5.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+#blog6 {
+  background-image: url("blogs/week6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#blogtitle6 {
+  background-image: url("blogs/week6.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+#blog7 {
+  background-image: url("blogs/week7.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#blogtitle7 {
+  background-image: url("blogs/week7.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+#blog8 {
+  background-image: url("blogs/week8.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#blogtitle8 {
+  background-image: url("blogs/week8.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+#gwcblog {
+  background-image: url("gwcblog.jpg");
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  opacity: .8;
+}
+
+
+comment {
+  color: black;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin: 0px;
