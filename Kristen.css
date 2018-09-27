@@ -97,7 +97,8 @@ body {
     background-color: white;
     min-width: 200px;
     z-index: 1;
-}
+    box-shadow: 5px 10px 18px #888888;
+  }
 
 .dropdown-content a {
     float: none;
@@ -106,6 +107,8 @@ body {
     text-decoration: none;
     display: block;
     text-align: center;
+    font-size: 18px;
+
 }
 
 .dropdown-content a:hover {
@@ -149,9 +152,10 @@ a {
 
 /* Buttons */
 
-#project_title>a {
+#project_title {
   font-size: 35px;
   font-family: "Karma", sans-serif;
+  text-align: center;
 }
 
 
@@ -200,6 +204,14 @@ h4 { /* Email */
   text-indent: 8%;
 }
 
+.box p1{
+  font-size: 24px;
+  color: black;
+  padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 175%;
+}
+
 .Projects > p {
   line-height: 175%;
 }
@@ -238,6 +250,7 @@ simple {
 .button:hover {
   background-color: #ddd;
   color: black;
+  text-decoration: none;
 }
 
 
@@ -458,6 +471,10 @@ comment > p{
   font-size: 18px;
   margin: 0px;
 
+}
+
+#dhproject {
+  border: 4px solid #39517a;
 }
 
 /* Footer */
