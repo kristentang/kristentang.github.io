@@ -6,24 +6,19 @@ html {
 }
 
 body {
-  /* background-color: #637288; */
   background-color: white;
   margin: 0px;
 }
 
-.BlogText {
+main {
   padding-left: 17%;
   padding-right: 17%;
-}
-.BlogText2 {
-  padding-left: 28%;
-  padding-right: 28%;
-  text-align: center;
+  font-size: 20px;
 }
 
 /* Name Banner */
 
-#banner_out{
+.banner_out{
     position: relative;
     background-image: url("sun.jpg");
     color: white;
@@ -31,29 +26,29 @@ body {
     background-position: bottom;
     background-size: cover;
     background-attachment: fixed;
-    padding: 150px;
+    padding: 250px;
 }
 
-#banner_in{
+.banner_in{
   border: 2px solid white;
   text-align: center;
   padding: 0px 10px;
   margin: 130px;
   position: relative;
-  margin-top: -278px;
+  margin-top: -368px;
+  margin-bottom: 140px;
 }
 
-#banner_in p1{
+.banner_in p1{
   font-size: 175px;
   font-family: 'Lovers Quarrel', cursive;
   color: white;
 }
 
-#banner_in p2{
+.banner_in p2{
   font-size: 25px;
   color: white;
 }
-
 
 /* Navigation Bar */
 
@@ -78,7 +73,6 @@ body {
     color: grey;
     font-family: "Karma", sans-serif;
     color: #9cc4bd;
-
 }
 
 .dropdown {
@@ -108,7 +102,6 @@ body {
     display: block;
     text-align: center;
     font-size: 18px;
-
 }
 
 .dropdown-content a:hover {
@@ -132,36 +125,12 @@ a:hover {
 }
 
 a {
-  /* color: #637288; */
   color: #9cc4bd;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
 
-/* .BlogTitles a:hover {
-  color: #9cc4bd;
-  font-family: "Karma", sans-serif;
-
-}
-
-.BlogTitles a {
-  color:#2b3c5a;
-  font-family: "Karma", sans-serif;
-
-} */
-
-/* Buttons */
-
-#project_title {
-  font-size: 35px;
-  font-family: "Karma", sans-serif;
-  text-align: center;
-}
-
-
-
-
-/* Headers, Paragraphs, Images */
+/* Headers */
 
 h1 {
   font-size: 80px;
@@ -176,27 +145,16 @@ h1 {
 }
 
 h2 {
-  font-size: 65px;
-  text-align: center;
-  padding-left: 17%;
-  padding-right: 17%;
-  color: #2b3c5a;
-  font-family: 'Roboto', sans-serif;
-}
-
-h3{ /* About Me and About My Summer */
   font-size: 40px;
   margin-top: 30px;
   color: #2b3c5a;
   font-weight: normal;
+  text-align: center;
 }
 
-h4 { /* Email */
-  font-weight: normal;
-}
+/* Paragraphs  */
 
-.box p{
-  font-size: 24px;
+section p{
   color: black;
   padding-bottom: 0px;
   font-family: 'Roboto', sans-serif;
@@ -204,8 +162,7 @@ h4 { /* Email */
   text-indent: 8%;
 }
 
-.box p1{
-  font-size: 24px;
+section p1{
   color: black;
   padding-bottom: 0px;
   font-family: 'Roboto', sans-serif;
@@ -216,20 +173,15 @@ h4 { /* Email */
   line-height: 175%;
 }
 
-simple {
-  font-family: 'Roboto', sans-serif;
-}
-
-.box {
-  /* border: 10px double white; */
+section {
   color: black;
-  font-size: 22px;
   padding: 20px 40px 40px 40px;
-  margin: 20px 20px 60px 20px;
-  /* background-color: #7F8B9D; */
+  margin: 20px 20px 20px 20px;
   font-weight: normal;
 
 }
+
+/* Buttons */
 
 .button {
     background-color: #7F8B9D;
@@ -253,29 +205,11 @@ simple {
   text-decoration: none;
 }
 
-
 /* Pictures */
 
 img, video {
   border: 2px solid white;
   margin: 0px;
-}
-
-.pics{
-  display: flex;
-  text-align: center;
-}
-
-.pic3 {
-  padding: 15px;
-  text-align: center;
-  width:33%;
-}
-
-.pic2 {
-  width: 50%;
-  padding: 2%;
-  text-align: center;
 }
 
 .pic { /* One centered picture */
@@ -284,8 +218,20 @@ img, video {
   text-align: center;
 }
 
-.BlogText .pic{
-  font-size: 20px;
+.pics{ /* Multiple pics in a row */
+  display: flex;
+  text-align: center;
+}
+
+.pic3 { /* Three pics in a row */
+  padding: 15px;
+  text-align: center;
+  width:33%;
+}
+
+.pic2 { /* Three pics in a row */
+  width: 50%;
+  padding: 2%;
   text-align: center;
 }
 
@@ -293,16 +239,16 @@ img, video {
   opacity: .3;
 }
 
-.Projects {
-  font-size: 35px;
+comment {
+  color: black;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  border: 2px solid white;
-  margin-right: 23%;
-  margin-left: 23%;
-  margin-bottom: 30px;
-  padding: 20px;
-  position: relative;
+  margin: 0px;
+  padding-bottom: 40px;
+  font-size: 18px;
 }
+
+/* Blog Titless */
 
 .BlogTitles {
   color: white;
@@ -445,36 +391,12 @@ img, video {
   opacity: .8;
 }
 
-#gwcblog {
-  background-image: url("gwcblog.jpg");
-  background-position: bottom;
-  background-size: cover;
-  color: white;
-  padding: 120px;
-  opacity: .8;
-}
+/* Projects */
 
-
-comment {
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-}
-
-comment > p{
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 40px;
-  font-size: 18px;
-  margin: 0px;
-
-}
-
-#dhproject {
+.project {
   border: 4px solid #39517a;
+  padding: 0px;
+  margin: 0px -60px 0px -60px;
 }
 
 /* Footer */
@@ -487,6 +409,10 @@ footer {
   background-position: center;
   background-size: cover;
   padding: 90px;
+}
+
+simple {
+  font-family: 'Roboto', sans-serif;
 }
 
 #icon {
